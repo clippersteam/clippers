@@ -1,0 +1,5 @@
+<% if @successfully_subscribed %>
+  $('#message').html('신청해주셔서 감사합니다. 저희가 보내드린 메일에 승인하시면 구독이 완료됩니다');
+<% else %>
+  $('#message').html('등록 중 오류가 발생했습니다.');
+<% end %>
